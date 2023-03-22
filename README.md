@@ -32,3 +32,10 @@
 - Workspace:
   `$ docker-compose exec php bash`
 - Done!
+
+## Run with server name:
+- Access server name to file (ubuntu) `/etc/hosts`
+- Access server name to file (mac os) `/private/etc/hosts`
+- Access server name to file (windows) `C:\Windows\System32\drivers\etc\hosts`
+- Add line:
+  `127.0.0.1 laravel.test`
